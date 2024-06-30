@@ -1,0 +1,31 @@
+body{
+    margin:0;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #0052D4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #6FB1FC, #4364F7, #0052D4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #6FB1FC, #4364F7, #0052D4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height:100vh;
+    color:white;
+    font-weight:bold;
+}
+
+.signup{
+    text-align: center;
+    font-size:30px;
+}
+.signup input{
+    margin:10px;
+    font-size:30px;
+}
+.signup button{
+    font-size:30px;
+    padding:10px;
+    color:white;
+    background:#1b4891;
+    border:none;
+    border-radius:10px;
+    font-weight: bold;
+}
